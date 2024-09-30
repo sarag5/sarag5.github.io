@@ -1,0 +1,19 @@
+@media print {
+    body {
+        background-color: white;
+    }
+
+    .container {
+        max-width: 100%;
+        padding: 0;
+    }
+
+    section {
+        box-shadow: none;
+        page-break-inside: avoid;
+    }
+
+    .download-button {
+        display: none;
+    }
+}

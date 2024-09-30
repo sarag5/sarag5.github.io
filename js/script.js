@@ -56,3 +56,17 @@ function populateResume(data) {
 }
 
 document.addEventListener('DOMContentLoaded', loadResume);
+
+document.getElementById('downloadPDF').addEventListener('click', function() {
+    const element = document.body;
+    const opt = {
+        margin:       1,
+        filename:     'resume.pdf',
+        image:        { type: 'jpeg', quality: 0.98 },
+        html2canvas:  { scale: 2 },
+        jsPDF:        { unit: 'in', format: 'letter', orientation: 'portrait' }
+    };
+
+    // Generate and download the PDF
+    html2pdf().set(opt).from(element).save();
+});
