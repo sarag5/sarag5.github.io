@@ -1,7 +1,6 @@
 export const bio = [
-  "Hello! I'm sabarinathan raghupathi, an experienced Frontend Software Engineer with a proven ability to upgrade applications, optimize performance, and deliver innovative solutions.",
+  "Hello! I'm sabarinathan raghupathi, an experienced Backend and DevOps Engineer with a proven ability to Implement CI/CD for seamless Intergration and Deployment and Python backend microservice development",
   "I am passionate about using my technical skills to drive impactful contributions in challenging projects.",
-  "Thanks for visiting!",
 ];
 
 export const skills = [
@@ -12,14 +11,14 @@ export const skills = [
     percentage: "80",
   },
   {
-    title: "Frameworks/Libraries",
-    skillName: "Angular, RxJS, NGRX/NGXS",
+    title: "Cloud",
+    skillName: "Azure, GCP",
     color: "6",
     percentage: "70",
   },
   {
-    title: "Design",
-    skillName: "HTML, Bootstrap, Tailwind",
+    title: "DevOps",
+    skillName: "Github Action, Jenkins, Docker, Kubernetes",
     color: "4",
     percentage: "70",
   },
